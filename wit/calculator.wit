@@ -1,0 +1,10 @@
+package demo:math;
+
+interface arithmetic {
+    add: func(a: s32, b: s32) -> s32;
+    multiply: func(a: s32, b: s32) -> s32;
+}
+
+world component-math {
+    export arithmetic;
+}
